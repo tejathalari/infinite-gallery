@@ -24,7 +24,7 @@ git branch -M main
 git branch -m main gh-pages
 
 # Push the changes to the "gh-pages" branch of the remote repository
-git push -f https://github.com/tejathalari/infinite-gallery.git gh-pages
+git push -f git@github.com:tejathalari/infinite-gallery.git gh-pages
 
 # Clean up - remove the temporary directory
 cd ..
