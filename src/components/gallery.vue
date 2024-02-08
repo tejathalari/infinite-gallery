@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto px-4 py-8" style="margin-left: 60px; margin-right: 60px;">
         <h1 class="flex items-center justify-center text-2xl mr-28 mb-8">My Infinite Gallery</h1>
-      <div class="grid grid-cols-3 gap-8">
+      <div class="grid grid-cols-3 gap-8 ">
         <div v-for="image in images" :key="image.id" class="bg-gray-300 rounded-lg overflow-hidden w-64 h-64">
           <img :src="image.urls?.regular" :alt="image.alt_description" class="w-full h-full object-cover">
         </div>
